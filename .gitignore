@@ -9,6 +9,7 @@
 # testing
 /coverage
 *.log
+git commit --amend --author="Your Name <yourusername@users.noreply.github.com>"
 
 
 # next.js
