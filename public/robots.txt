@@ -1,0 +1,41 @@
+# General rule: Apply to all crawlers
+User-agent: *
+
+# Allow all pages to be indexed by default
+Allow: /
+
+# Block specific areas that shouldn't be indexed
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /drafts/
+Disallow: /temporary/
+
+# Delay crawling to reduce server load (optional)
+Crawl-delay: 10
+
+# Special rules for specific crawlers (optional)
+# Block AhrefsBot (SEO monitoring tool)
+User-agent: AhrefsBot
+Disallow: /
+
+# Block SemrushBot
+User-agent: SemrushBot
+Disallow: /
+
+
+# Block web scrapers
+User-agent: MJ12bot
+Disallow: /
+
+
+User-agent: Bingbot
+Allow: /
+Disallow: /private/
+
+
+# Prevent indexing of duplicate content
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /page/
+

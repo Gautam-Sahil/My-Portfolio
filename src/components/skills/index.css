@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass-card {
+  @apply relative overflow-hidden;
+  background: rgba(17, 25, 40, 0.75);
+  backdrop-filter: blur(12px);
+}
+.glass-card::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-teal-500/20 to-emerald-500/20;
+  @apply opacity-0 transition-opacity duration-500;
+}
+.glass-card:hover::before {
+  @apply opacity-100;
+}
+
+.skill-card {
+  @apply p-6 rounded-xl transition-all duration-300 border border-transparent;
+  @apply bg-gradient-to-br from-gray-900/80 to-black/90;
+  @apply backdrop-blur-sm;
+}
+
+.skill-card:hover {
+  @apply bg-gradient-to-br from-cyan-900/30 to-teal-900/30;
+  @apply transform scale-105;
+  @apply border-cyan-500/30;
+  @apply shadow-lg shadow-cyan-500/20;
+}
+
+.skills-glow::before {
+  content: '';
+  @apply absolute -inset-1 bg-gradient-to-r from-cyan-600 via-teal-600 to-emerald-600 rounded-lg blur opacity-0 transition-opacity duration-500;
+}
+
+.skills-hover-effect:hover {
+  @apply transform -translate-y-1 scale-[1.02];
+  animation: newSkillsPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes newSkillsPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px theme('colors.cyan.500/30'),
+                0 0 30px theme('colors.teal.500/20');
+  }
+  50% {
+    box-shadow: 0 0 20px theme('colors.cyan.500/40'),
+                0 0 40px theme('colors.teal.500/30');
+  }
+}
+
+.skill-card {
+  @apply p-4 rounded-lg transition-all duration-300 border border-transparent;
+}
+
+.skill-card:hover {
+  @apply bg-black transform scale-105 ring-2 ring-purple-400 ring-opacity-100;
+}
+
+.myskills-card-hover:hover {
+  @apply bg-rose-600 transform scale-105 ring-2 ring-black ring-opacity-100;
+}
+
+.skills-glow {
+  @apply relative;
+}
+
+.skills-glow::before {
+  content: '';
+  @apply absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-lg blur opacity-0 transition-opacity duration-500;
+}
+
+.skills-glow:hover::before {
+  @apply opacity-75;
+}
+
+.skills-card-content {
+  @apply relative bg-black rounded-lg p-4 transition-all duration-500;
+}
+
+.skills-hover-effect:hover {
+  @apply transform -translate-y-1 scale-[1.02];
+  animation: skillsPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes skillsPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px theme('colors.purple.500/30'),
+                0 0 30px theme('colors.pink.500/20');
+  }
+  50% {
+    box-shadow: 0 0 20px theme('colors.purple.500/40'),
+                0 0 40px theme('colors.pink.500/30');
+  }
+}
+
+.achievement-card {
+  @apply p-6 rounded-xl transition-all duration-500;
+  @apply bg-gradient-to-br from-gray-900/80 to-black/90;
+  @apply backdrop-blur-sm border border-purple-100/20;
+  @apply hover:border-purple-700/60;
+  @apply relative overflow-hidden;
+  @apply hover:transform hover:scale-[1.02];
+}
+
+.achievement-card::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-purple-600/20 via-pink-500/20 to-purple-600/20;
+  @apply opacity-0 transition-opacity duration-500;
+}
+
+.achievement-card:hover::before {
+  @apply opacity-100;
+}
+
+.achievement-card::after {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10;
+  @apply opacity-0 transition-opacity duration-500 blur-xl;
+}
+
+.achievement-card:hover::after {
+  @apply opacity-100;
+}
+
+.achievement-icon {
+  @apply w-8 h-8 text-purple-400 mb-4;
+  @apply transition-all duration-500;
+}
+
+.achievement-card:hover .achievement-icon {
+  @apply text-purple-300 transform scale-110;
+  filter: drop-shadow(0 0 8px theme('colors.purple.400/60'));
+}
+
+.achievement-title {
+  @apply relative inline-block;
+  @apply transition-all duration-500;
+}
+
+.achievement-card:hover .achievement-title {
+  @apply text-white;
+  text-shadow: 0 0 15px theme('colors.purple.400/60');
+}
+
+.achievement-description {
+  @apply transition-colors duration-500;
+}
+
+.achievement-card:hover .achievement-description {
+  @apply text-gray-200;
+}
+
+.achievement-orb {
+  @apply absolute -right-10 -top-10 h-24 w-24 rounded-full;
+  @apply transition-all duration-700 ease-out;
+  @apply bg-gradient-to-br from-purple-500/10 to-pink-500/10;
+  @apply blur-md;
+}
+
+.achievement-card:hover .achievement-orb {
+  @apply scale-150 opacity-100;
+  @apply bg-gradient-to-br from-purple-500/30 to-pink-500/30;
+}
