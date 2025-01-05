@@ -103,17 +103,14 @@ const AboutDetails = () => {
             1+ <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
-        <ItemLayout className={"mt-6 col-span-full"}>
-  <img
-    className="mt-2 w-full h-auto"
+        <ItemLayout className={"col-span-full"}>
+          <img
+            className="w-full h-auto"
     src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
     alt="CodeBucks"
     loading="lazy"
-    width="200"  
-    height="200" 
   />
 </ItemLayout>
-
 
         <ItemLayout className="mt-10 col-span-full lg:col-span-full row-span-2 flex-col">
         <p className="font-semibold w-full text-left text-xl sm:text-2xl text-accent">
