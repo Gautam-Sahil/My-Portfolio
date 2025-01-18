@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 1,
-    name: "First Portfolio Design",
+    name: "Portfolio Design",
     description: "This was the my first portfolio design",
     date: "2023-10-28",
     demoLink: "https://gautam-sahil.github.io/Simple-portfolio-design/",
