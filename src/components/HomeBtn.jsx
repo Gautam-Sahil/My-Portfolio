@@ -19,7 +19,7 @@ const HomeBtn = () => {
       name={"home"}
       prefetch={false}
     >
-      <span className="relative w-14 p-4 hover:text-accent">
+      <span className="relative w-14 xs:p-4 p-3.5 hover:text-accent">
         <Home className="w-full h-auto" strokeWidth={1.5} />
 
         <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
