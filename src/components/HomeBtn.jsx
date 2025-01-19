@@ -13,14 +13,13 @@ const HomeBtn = () => {
       transition={{ delay: 0.1 }}
       href={"/"}
       target={"_self"}
-      className="text-foreground  rounded-full flex items-center justify-center
-        custom-bg fixed top-4 left-4 w-fit self-start z-50
-        "
+      className="w-12 h-12 xs:w-14 xs:h-14 text-foreground  rounded-full flex items-center justify-center
+        custom-bg fixed top-4 left-4  self-start z-50"
       aria-label={"home"}
       name={"home"}
       prefetch={false}
     >
-      <span className="relative w-14 h-14 p-4 hover:text-accent">
+      <span className="relative w-14 p-4 hover:text-accent">
         <Home className="w-full h-auto" strokeWidth={1.5} />
 
         <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
