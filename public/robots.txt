@@ -1,5 +1,9 @@
 # General rule: Apply to all crawlers
 User-agent: *
+Disallow:
+
+# Host
+Host: https://gautamtiwari.top
 
 # Allow all pages to be indexed by default
 Allow: /
@@ -11,10 +15,6 @@ Disallow: /private/
 Disallow: /drafts/
 Disallow: /temporary/
 
-# Delay crawling to reduce server load (optional)
-Crawl-delay: 10
-
-# Special rules for specific crawlers (optional)
 # Block AhrefsBot (SEO monitoring tool)
 User-agent: AhrefsBot
 Disallow: /
@@ -23,19 +23,14 @@ Disallow: /
 User-agent: SemrushBot
 Disallow: /
 
-
 # Block web scrapers
 User-agent: MJ12bot
 Disallow: /
 
-
+# Special rules for Bingbot
 User-agent: Bingbot
 Allow: /
 Disallow: /private/
 
-
-# Prevent indexing of duplicate content
-Disallow: /tags/
-Disallow: /categories/
-Disallow: /page/
-
+# Sitemap location
+Sitemap: https://gautamtiwari.top/sitemap.xml
