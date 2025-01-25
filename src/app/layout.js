@@ -20,7 +20,7 @@ export const metadata = {
     default: "Gautam's Portfolio",
   },
   description:
-    "This is my portfolio, thoughtfully designed and coded entirely by me",
+    "Hello I'm a web developer and this is my portfolio. I build custom websites that are responsive, fast, and easy to use. With experience in both front-end and back-end development, I focus on creating websites that work seamlessly across all devices. Whether you’re launching a new website or looking to update an existing one, I’m dedicated to delivering solutions that align with your business goals and provide an exceptional user experience. So if you're interested Let's work together to bring your digital projects to life with top-tier design and functionality. ",
 };
 
 export default function RootLayout({ children }) {
