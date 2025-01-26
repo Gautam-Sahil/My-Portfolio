@@ -3,7 +3,7 @@ User-agent: *
 Disallow:
 
 # Host
-Host: https://gautamtiwari.top
+Host: https://www.gautamtiwari.top/
 
 # Allow all pages to be indexed by default
 Allow: /
