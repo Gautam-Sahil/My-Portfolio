@@ -89,7 +89,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout
-          className={"col-span-4 xs:col-span-4 lg:col-span-4 text-accent"}
+          className={"col-span-4 xs:col-span-4 lg:col-span-4 text-yellow-200"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             10+ <sub className="font-semibold text-base">clients</sub>
@@ -97,7 +97,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout
-          className={"col-span-4 xs:col-span-4 lg:col-span-4 text-accent"}
+          className={"col-span-4 xs:col-span-4 lg:col-span-4 text-yellow-200"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             1+ <sub className="font-semibold text-base">years of experience</sub>
@@ -125,7 +125,7 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-blue-500 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-accent mr-2">BlueSky Technologies</span>
+                <span className="text-emerald-200 mr-2">BlueSky Technologies</span>
                 <br />
                 <strong>Software Engineer Intern</strong>
                 <br /> | June 2023 - Present
@@ -143,7 +143,7 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-purple-600 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-accent mr-2">TechSolutions Ltd.</span>
+                <span className="text-emerald-200 mr-2">TechSolutions Ltd.</span>
                 <br />
                 <strong>Front-End Development Intern</strong> <br /> | January 2023 - May 2023
                 <br />
@@ -160,7 +160,7 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-emerald-700 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-accent mr-2">Infinity CodeWorks</span>
+                <span className="text-emerald-200 mr-2">Infinity CodeWorks</span>
                 <br />
                 <strong>Full-Stack Development Intern</strong> <br /> | September 2022 - December 2022
                 <br />

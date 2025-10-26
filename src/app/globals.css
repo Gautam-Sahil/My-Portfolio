@@ -7,7 +7,48 @@
     --background: 27 27 27;
     --foreground: 225 225 225;
     --muted: 115 115 115;
-    --accent: 254 254 95;
+    --accent: 14 220 182;
+  }
+
+  /* Autofill issue fix */
+  input:-webkit-autofill,
+  textarea:-webkit-autofill,
+  select:-webkit-autofill {
+    transition: 5000s ease-in-out 0s !important;
+  }
+
+  /* Ensure the background and text color are applied to autofilled inputs */
+  input:focus:-webkit-autofill,
+  textarea:focus:-webkit-autofill,
+  select:focus:-webkit-autofill {
+    background-color: rgb(var(--background)) !important;
+    color: rgb(var(--foreground)) !important;
+  }
+
+  /* Selection styles */
+  ::selection {
+    background-color: rgb(186, 36, 246);
+    color: white;
+  }
+
+  /* Optional: Webkit (Chrome/Safari) and Firefox support */
+  ::-webkit-selection,
+  ::-moz-selection {
+    background-color: rgb(186, 36, 246);
+    color: white;
+  }
+
+  /* Custom scrollbar styles */
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: transparent;
   }
 }
 
@@ -16,6 +57,7 @@
     animation-play-state: paused;
   }
 
+  /* Custom background class with blur and accent border */
   .custom-bg {
     @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm;
   }
@@ -28,28 +70,4 @@
   100% {
     transform: translate(100px, 100px);
   }
-}
-
-::selection {
-  background-color: rgb(186, 36, 246);
-  color: white;
-}
-
-/* Optional: Webkit (Chrome/Safari) and Firefox support can be combined into one rule if needed */
-::-webkit-selection,
-::-moz-selection {
-  background-color: rgb(186, 36, 246);
-  color: white;
-}
-
-body::-webkit-scrollbar {
-  width: 8px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
-
-body::-webkit-scrollbar-track {
-  background: transparent;
 }

@@ -26,8 +26,8 @@ module.exports = {
           "radial-gradient(50% 50% at 50% 50%, rgba(253, 255, 80, 0.5) 0%, rgba(217,217,217, 0) 100%)",
       },
       boxShadow: {
-        'glass-inset': 'inset 0 17px 10px -5px rgba(254,254,91, 0.01)',
-        'glass-sm': '5px 5px 30px 0px rgba(254,254,91, 0.3)',
+        'glass-inset': 'inset 0 10px 10px -5px rgba(254, 254, 22, 0.49)',
+        'glass-sm': '5px 5px 30px 0px rgba(14, 220, 182, 0.9)',
       },
       keyframes: {
           'spin-reverse':{

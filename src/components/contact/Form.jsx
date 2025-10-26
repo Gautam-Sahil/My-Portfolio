@@ -98,7 +98,7 @@ export default function Form() {
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
         />
         {errors.name && (
-          <span className="inline-block self-start text-accent">
+          <span className="inline-block self-start text-red-400">
             {errors.name.message}
           </span>
         )}
@@ -110,7 +110,7 @@ export default function Form() {
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
         />
         {errors.email && (
-          <span className="inline-block self-start text-accent">
+          <span className="inline-block self-start text-red-500">
             {errors.email.message}
           </span>
         )}
@@ -131,7 +131,7 @@ export default function Form() {
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
         />
         {errors.message && (
-          <span className="inline-block self-start text-accent">
+          <span className="inline-block self-start text-red-600">
             {errors.message.message}
           </span>
         )}

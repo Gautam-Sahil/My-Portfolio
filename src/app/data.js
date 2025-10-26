@@ -15,10 +15,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "Project 3",
-    description: "The project is under construction",
+    name: "Library Hub",
+    description: "A web-based library management system project.",
     date: "2022-09-10",
-    demoLink: "https://www.example.com/",
+    demoLink: "https://library-hub-omega.vercel.app/",
   },
   {
     id: 4,
