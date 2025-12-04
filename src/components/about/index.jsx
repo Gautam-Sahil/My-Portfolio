@@ -124,18 +124,21 @@ const AboutDetails = () => {
         <div className="w-full flex flex-col space-y-8 border-t-2 border-blue-300 pt-5">
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-blue-500 transition duration-300 ease-in-out">
-              <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-emerald-200 mr-2">BlueSky Technologies</span>
-                <br />
-                <strong>Software Engineer Intern</strong>
-                <br /> | June 2023 - Present
-                <br />
-                • Developed and maintained a user-friendly web application for internal data tracking.
-                <br />
-                • Collaborated with cross-functional teams to implement new features and improve existing functionalities.
-                <br />
-                • Gained hands-on experience with Agile methodologies and version control systems (Git).
-              </p>
+            <p className="font-semibold w-full text-left text-md sm:text-md">
+  <span className="text-emerald-200 mr-2">Working on own Projects</span>
+  <br />
+  <strong>Self-Driven Developer</strong>
+  <br /> | April 2025 – Present
+  <br />
+  • Transitioned to building full-stack applications with Next.js to deepen expertise in modern web development.
+  <br />
+  • Designed and developed complex personal projects focusing on scalable architecture and real-world problem-solving.
+  <br />
+  • Actively learning backend technologies, including Java and Python, to strengthen understanding of server-side development.
+  <br />
+  • Continuously improving skills in API design, database management, authentication, and deployment workflows.
+</p>
+
             </ItemLayout>
             <div className="w-full h-px bg-blue-300 group-hover:bg-blue-500 transition duration-300 ease-in-out"></div>
           </div>
@@ -143,13 +146,13 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-purple-600 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-emerald-200 mr-2">TechSolutions Ltd.</span>
+                <span className="text-emerald-200 mr-2">InfinityX ltd</span>
                 <br />
-                <strong>Front-End Development Intern</strong> <br /> | January 2023 - May 2023
+                <strong>Front-End Development Intern</strong> <br /> | January 2025 - March 2025
                 <br />
                 • Designed and implemented responsive and interactive user interfaces for a mobile application.
                 <br />
-                • Utilized HTML, CSS, and JavaScript to create dynamic and engaging user experiences.
+                • Utilized React JavaScript Library to create dynamic and engaging user experiences.
                 <br />
                 • Gained valuable experience in working with a remote team and adhering to project deadlines.
               </p>
@@ -160,9 +163,9 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-emerald-700 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-emerald-200 mr-2">Infinity CodeWorks</span>
+                <span className="text-emerald-200 mr-2">Apoorva & Co</span>
                 <br />
-                <strong>Full-Stack Development Intern</strong> <br /> | September 2022 - December 2022
+                <strong>Full-Stack Development Intern</strong> <br /> | August 2024 - October 2022
                 <br />
                 • Developed and deployed a full-stack web application using Node.js, Express.js, and React.js.
                 <br />

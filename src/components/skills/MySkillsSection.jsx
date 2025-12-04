@@ -19,18 +19,18 @@ const MySkillsSection = () => {
           {
             icon: <FileCode className="w-6 h-6 text-purple-400" />,
             title: "Frontend Development",
-            skills: ["HTML, CSS, Tailwind CSS", "JavaScript, React, Next.js", "Responsive Design & Cross-Browser Compatibility"],
+            skills: [" React, Next.js, JavaScript", "Tailwind CSS, HTML, CSS ", "Responsive Design & Cross-Browser Compatibility"],
           },
           {
             icon: <Database className="w-6 h-6 text-pink-400" />,
             title: "Backend Development",
-            skills: ["Node.js, Next.js, Express.js", "RESTful APIs", "Basic familiarity with databases (SQL, MongoDB)"],
+            skills: ["Node.js, Next.js, Express.js", "RESTful APIs", "Working with databases (SQL, MongoDB)"],
           },
           {
             icon: <Code className="w-6 h-6 text-indigo-400" />,
             title: "Coding and Site Building",
             description: "Core development languages and platforms used for building software and websites.",
-            skills: ["C Programming, C++, Python", "WordPress, Webflow", "Linux Operating System"],
+            skills: ["Java, C Programming, C++, Python", "WordPress, Webflow", "Linux Operating System"],
           },
           {
             icon: <Edit className="w-6 h-6 text-purple-400" />,

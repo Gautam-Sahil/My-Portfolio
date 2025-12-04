@@ -1,39 +1,45 @@
 export const projectsData = [
-  {
+
+
+   {
     id: 1,
-    name: "Portfolio Design",
-    description: "This was the my first portfolio design",
-    date: "2023-10-28",
-    demoLink: "https://gautam-sahil.github.io/Simple-portfolio-design/",
+    name: "Cinion",
+    description: "Movie Ticket Booking Website.",
+    date: "2025-12-03",
+    demoLink: "https://cineon.vercel.app/",
   },
-  {
+
+    {
     id: 2,
-    name: "Watch Project",
-    description: "This is a 3d watch landing page",
-    date: "2024-01-08",
-    demoLink: "https://gautam-sahil.github.io/Watch-Project/",
+    name: "SurgeIQ",
+    description: "Predictive Hospital Management System.",
+    date: "2025-11-29",
+    demoLink: "https://surgeiq.vercel.app/",
   },
-  {
+    {
     id: 3,
     name: "Library Hub",
     description: "A web-based library management system project.",
-    date: "2022-09-10",
+    date: "2025-10-14",
     demoLink: "https://library-hub-omega.vercel.app/",
   },
   {
     id: 4,
-    name: "Project 4",
-    description: "Coming soon",
-    date: "2022-05-30",
-    demoLink: "https://www.example.com/",
+    name: "Watch Project",
+    description: "This is a 3d watch landing page.",
+    date: "2024-01-08",
+    demoLink: "https://gautam-sahil.github.io/Watch-Project/",
   },
+ 
   {
     id: 5,
-    name: "Project 5",
-    description: "Coming soon",
-    date: "2022-07-12",
-    demoLink: "https://www.example.com/",
+    name: "Portfolio Design",
+    description: "This was the my first portfolio design.",
+    date: "2023-10-28",
+    demoLink: "https://gautam-sahil.github.io/Simple-portfolio-design/",
   },
+
+
   {
     id: 6,
     name: "Project 6",

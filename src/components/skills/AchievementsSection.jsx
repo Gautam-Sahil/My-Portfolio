@@ -24,7 +24,7 @@ const AchievementsSection = () => {
           {
             icon: Star,
             title: "CodeBuck - Runner-Up",
-            description: "designed and developed a visually appealing and fast-loading portfolio website in under 48 hours."
+            description: "designed and developed a visually appealing and fast-loading portfolio website in under 24 hours."
           },
           {
             icon: Award,
