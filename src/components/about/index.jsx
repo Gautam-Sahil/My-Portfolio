@@ -165,7 +165,7 @@ const AboutDetails = () => {
               <p className="font-semibold w-full text-left text-md sm:text-md">
                 <span className="text-emerald-200 mr-2">Apoorva & Co</span>
                 <br />
-                <strong>Full-Stack Development Intern</strong> <br /> | August 2024 - October 2022
+                <strong>Full-Stack Development Intern</strong> <br /> | August 2024 - October 2024
                 <br />
                 • Developed and deployed a full-stack web application using Node.js, Express.js, and React.js.
                 <br />
