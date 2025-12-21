@@ -114,22 +114,25 @@ export default function Form() {
             {errors.email.message}
           </span>
         )}
-        <motion.textarea
-          variants={item}
-          placeholder="message"
-          {...register("message", {
-            required: "This field is required!",
-            maxLength: {
-              value: 500,
-              message: "Message should be less than 500 characters",
-            },
-            minLength: {
-              value: 50,
-              message: "Message should be more than 50 characters",
-            },
-          })}
-          className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
-        />
+       <motion.textarea
+  variants={item}
+  rows={2} 
+  placeholder="message"
+  {...register("message", {
+    required: "This field is required!",
+    maxLength: {
+      value: 500,
+      message: "Message should be less than 500 characters",
+    },
+    minLength: {
+      value: 50,
+      message: "Message should be more than 50 characters",
+    },
+  })}
+  className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg 
+  resize-y  
+  [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden" 
+/>
         {errors.message && (
           <span className="inline-block self-start text-red-600">
             {errors.message.message}
