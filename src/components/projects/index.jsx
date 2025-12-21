@@ -14,14 +14,21 @@ const container = {
 };
 
 const ProjectList = ({ projects }) => {
+  // 1. THIS IS THE MISSING PART
+  // We take the projects and sort them: Newest Date minus Oldest Date
+  const sortedProjects = [...projects].sort((a, b) => {
+    return new Date(b.date) - new Date(a.date);
+  });
+
   return (
     <motion.div
       variants={container}
       initial="hidden"
       animate="show"
-      className="w-full max-w-auto  xl:max-w-4xl px-4 mx-auto lg:px-16 space-y-6 md:space-y-8 flex flex-col items-center"
+      className="w-full max-w-auto xl:max-w-4xl px-4 mx-auto lg:px-16 space-y-6 md:space-y-8 flex flex-col items-center"
     >
-      {projects.map((project, index) => {
+      {/* 2. We map over 'sortedProjects', not the original 'projects' */}
+      {sortedProjects.map((project, index) => {
         return <ProjectLayout key={index} {...project} />;
       })}
     </motion.div>
