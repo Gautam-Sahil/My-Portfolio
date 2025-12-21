@@ -148,7 +148,7 @@ const AboutDetails = () => {
               <p className="font-semibold w-full text-left text-md sm:text-md">
                 <span className="text-emerald-200 mr-2">Node-Digilearning Pvt. Ltd.</span>
                 <br />
-                <strong>Front-End Development Intern</strong> <br /> | January 2025 - March 2025
+                <strong>Front-End Development Intern</strong> <br /> | September 2025  -  November 2025
                 <br />
                 • Designed and implemented responsive and interactive user interfaces for a mobile application.
                 <br />
