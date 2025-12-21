@@ -163,7 +163,7 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-emerald-700 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-emerald-200 mr-2">Apoorva & Co</span>
+                <span className="text-emerald-200 mr-2">InfinityX ltd</span>
                 <br />
                 <strong>Full-Stack Development Intern</strong> <br /> | August 2024 - October 2024
                 <br />
