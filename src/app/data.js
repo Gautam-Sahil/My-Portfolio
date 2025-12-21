@@ -42,9 +42,9 @@ export const projectsData = [
 
   {
     id: 6,
-    name: "Project 6",
-    description: "Coming soon",
-    date: "2022-10-01",
+    name: "WebHive",
+    description: "A Website builder App.",
+    date: "2025-12-28",
     demoLink: "https://www.example.com/",
   },
   {
