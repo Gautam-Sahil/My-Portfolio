@@ -45,7 +45,7 @@ export const projectsData = [
     name: "WebHive",
     description: "A Website builder App.",
     date: "2025-12-28",
-    demoLink: "https://www.example.com/",
+    demoLink: "https://web-hive.vercel.app/",
   },
   {
     id: 7,
