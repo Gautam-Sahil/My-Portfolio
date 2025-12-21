@@ -106,7 +106,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-    src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
+    src={`https://skillicons.dev/icons?i=nextjs,react,js,ts,nodejs,express,mongodb,tailwind,html,bootstrap,prisma,css,d3,docker,figma,firebase,github,c,py,php,java,linux,aws,mysql,npm,postman,postgres,redux,npm,cloudflare,sass,supabase,wordpress,webflow,threejs,vercel,vite,vscode`}
     alt="CodeBucks"
     loading="lazy"
   />
@@ -146,7 +146,7 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-purple-600 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-emerald-200 mr-2">InfinityX ltd</span>
+                <span className="text-emerald-200 mr-2">Node-Digilearning Pvt. Ltd.</span>
                 <br />
                 <strong>Front-End Development Intern</strong> <br /> | January 2025 - March 2025
                 <br />
