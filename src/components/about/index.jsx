@@ -146,7 +146,7 @@ const AboutDetails = () => {
           <div className="group space-y-5">
             <ItemLayout className="w-full hover:bg-purple-600 transition duration-300 ease-in-out">
               <p className="font-semibold w-full text-left text-md sm:text-md">
-                <span className="text-emerald-200 mr-2">Node-Digilearning Pvt. Ltd.</span>
+                <span className="text-emerald-200 mr-2">Digilearning Pvt. Ltd.</span>
                 <br />
                 <strong>Front-End Development Intern</strong> <br /> | September 2025  -  November 2025
                 <br />
