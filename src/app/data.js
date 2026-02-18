@@ -70,7 +70,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    name: "Finance Application0",
+    name: "Finance Application",
     description: "Finance & Loan Management System",
     date: "2026-02-16",
     demoLink: "https://finance-application-teal.vercel.app/",
